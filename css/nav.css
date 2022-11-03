@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Padauk:wght@700&family=Poppins:wght@500&family=Roboto:wght@400;500&family=Sen:wght@700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Padauk:wght@700&family=Poppins:wght@500&family=Roboto:wght@500&family=Sen:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    background-color: #181f25;
+}
+.menu-conteudos i {
+ color: #22a0a0;
+}
+.telemovel{
+    display: flex;
+}
+.logo{
+    position: relative;
+}
+.about ul li {
+    background-color:#22a0a0;
+}
+.about ul li i {
+    display: inline-block;
+    color: white;
+    padding-right: 5px;
+}
+.about li {
+    padding: 10px 10px;
+    position: relative;
+}
+.about li ul {
+    text-transform: none;
+    display: none;
+    position: absolute;
+}
+.about li:hover ul {
+    display: block;
+}
+
+.container-menu{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.home{
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: relative;
+}
+.home a {
+    color: #22a0a0;
+}
+.menu-conteudos{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+}
+
+.botao-nav {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0 ;
+    display: flex;
+}
+
+.donate{
+    font-size: 16px;
+    color: #181f25;
+    padding: 13px 32px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about{
+    z-index: 1000;
+    display: flex;
+}
+.about i {
+    padding-left: 7px;
+}
+.txt-mb b {
+   font-size: 15px;
+   padding-bottom: 10px;
+}
+

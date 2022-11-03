@@ -1,0 +1,12 @@
+.formulario {
+    line-height: 30px;
+}
+.formulario input,textarea {
+    background-color: rgb(238, 234, 234);
+    border: none;
+    border-radius: 3px;
+}
+.enviar {
+    padding: 5px;
+    background-color: aqua;
+}

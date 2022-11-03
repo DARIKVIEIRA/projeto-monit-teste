@@ -1,0 +1,95 @@
+
+.showcase {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.container-showcase{  
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin: 0 auto;
+   position: relative;
+   width: 100%;
+}
+
+li.active, li:hover {
+    border-radius: 50%px;
+    transition: .5s;
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+.escrita-section1 h4 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.escritas-div01{
+    font-weight: 400;
+    padding-left: 60px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.escrita-section1{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 48px;
+    font-weight: 200;
+}
+
+.botao-section1 button{
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0 ;
+    display: flex;
+}
+.btn.active, .btn:hover {
+    background-color: #22a0a0;
+    border-radius: 50%px;
+    transition: .5s;
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+  .btn2.active, .btn2:hover {
+    background-color: #181f25;
+    border-radius: 50%px;
+    transition: .5s;
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+.botao-section1 a {
+      font-size: 16px;
+      color: #181f25;
+      padding: 16px 32px;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+}
+
+.botao-section1 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+ .btn  {
+  background-color:  #22a0a0;
+ }
+ .btn a {
+    color: white;
+ }
+.btn2 {
+    background-color: #181f25;
+}
+
+.btn2 a {
+    color: white;
+}

@@ -1,0 +1,81 @@
+.rodape{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-footer{
+    padding: 20px 0px;
+    background-color: white;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.produto {
+    max-width: 1000px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    padding-top: 29px;
+    margin: 0 auto;
+}
+
+
+.icon{
+    display: flex;
+    padding-top: 10px;
+}
+.product1 p {
+    padding-top: 5px;
+    line-height: 20px;
+    font-size: 15px;
+ }
+.icon h4 {
+   padding-left: 10px;
+}
+
+.hover-rodape.active, .hover-rodape:hover {
+    transition: .2s;
+    transform: scale(1.1);
+    transition: all 0.2s;
+    background-color: transparent;
+  }
+
+ .contacto-rodape {
+    padding-top: 8px;
+ }
+
+ .contacto-rodape a {
+   padding-bottom: 20px;
+   line-height: 30px;
+   
+ }
+
+ .ctt.active, .ctt:hover {
+    transition: .2s;
+    transform: scale(1.1);
+    transition: all 0.2s;
+    background-color: transparent;
+  }
+  
+  .termos {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color:  #181f25;
+  }
+  .copy h5 {
+    padding: 5px 0px;
+    font-weight: 200;
+  }

@@ -1,0 +1,37 @@
+.section5 {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+}
+
+.container5{
+    padding: 20px 0px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.txt-5 {
+    padding-bottom: 25px;
+}
+
+.txt-5 h2 {
+    color: #22a0a0;
+    letter-spacing: 1px;
+    font-size: 25px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+.txt-5 h4 { 
+    padding-top: 10px;
+    font-weight: 200;
+}

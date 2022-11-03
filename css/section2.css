@@ -1,0 +1,57 @@
+.section2 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.container-section2 {
+background-color: #181f25;
+padding: 76px 64px 0px 64px;
+text-align: center;
+align-items: center;
+justify-content: space-between;
+display: flex;
+margin: 0 ;
+position: relative;
+width: 100%;
+}
+.escritas-section2{
+    text-align: start;
+    color: white;
+}
+
+.escritas-section2 h4 {
+    color:  #22a0a0;
+    font-size: 25px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+}
+.escritas-section2 p {
+    font-size: 19px;
+    line-height: 25px;
+    font-size:'Roboto';
+    font-weight: 200;
+    padding-bottom: 48px;
+}
+
+.btn-2  a {
+font-size: 16px;
+color: white;
+padding: 16px 32px;
+font-weight: 500;
+font-family: 'Roboto', sans-serif;
+}
+
+.btn-2 button {
+    background-color: #22a0a0;
+    border: none;
+    border-radius: 8px;
+    margin: 0 ;
+    display: flex;
+}
+

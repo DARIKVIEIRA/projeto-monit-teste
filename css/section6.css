@@ -1,0 +1,46 @@
+.section6 {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #22a0a0;
+    
+}
+.container-6 button  {
+    background-color: #181f25;
+    border: none;
+    border-radius: 8px;
+    margin: 0 ;
+}
+
+.container-6 a {
+    text-transform: uppercase;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:#22a0a0;
+    padding: 10px 32px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao-6.active, .botao-6:hover {
+    background-color: #181f25;
+    border-radius: 8px;
+    transition: .5s;
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+.container-6 p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: white;
+}
